@@ -86,4 +86,5 @@ My preference is to type the command ```code``` into the Git CMD console.
 
 The Maven build system is pretty much an Internet build system.  If you have no connection it is not going to work, or will be very tricky to configure.  You could consider using Ant instead.
 
-If your connection is slow then you'll get a long pause after ```hello```
+If your connection is slow then you'll get a long pause after ```[INFO] Generating project in Interactive mode``` 
+
