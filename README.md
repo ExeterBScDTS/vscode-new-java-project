@@ -2,7 +2,7 @@
 
 ## Summary
 
-This README gives a very quick step by step guide to creating a new, mostly empty, Java application in Visual Studio Code.  There are a few pre-requisites, not least of which is that Visual Studio Code and an appropriate JDK are installed.
+This README gives a step by step guide to creating a new, mostly empty, Java application in Visual Studio Code.  There are a few pre-requisites, not least of which is that Visual Studio Code and an appropriate JDK are installed.
 
 These instructions might not be your best route to getting started with Java in Visual Studio code. Consider downloading and building a simple, known working, project first.
 
@@ -88,3 +88,6 @@ The Maven build system is pretty much an Internet build system.  If you have no 
 
 If your connection is slow then you'll get a long pause after ```[INFO] Generating project in Interactive mode``` 
 
+### Using command line Maven
+
+VSCode is simply using a shell to run the ```mvn``` command, so an alternative approach would be to create your new Java project using shell commands.  Full details here https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
