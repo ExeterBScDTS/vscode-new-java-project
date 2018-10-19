@@ -32,7 +32,11 @@ Following the instructions I'll provide some further tips that might help with t
 
 1. You will be prompted to ```Select an archetype ...```
 
-   Choose ```archetype-quickstart-jdk8```
+   For a Java application choose ```archetype-quickstart-jdk8```
+   
+   For a servlet choose ```maven-archetype-webapp```
+   
+ 
 
 1. The ```Maven``` terminal output window will show many ```[INFO]``` messages, ending with:
 
@@ -90,4 +94,8 @@ If your connection is slow then you'll get a long pause after ```[INFO] Generati
 
 ### Using command line Maven
 
-VSCode is simply using a shell to run the ```mvn``` command, so an alternative approach would be to create your new Java project using shell commands.  Full details here https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+VSCode is simply using a shell to run the ```mvn``` command, so an alternative approach would be to create your new Java project using shell commands.  
+
+Full details here https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+See also https://maven.apache.org/archetypes/maven-archetype-webapp/
